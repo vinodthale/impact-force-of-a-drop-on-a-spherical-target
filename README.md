@@ -1,1 +1,1 @@
-# impact-force-of-a-drop-on-a-spherical-target
+# Impact of drop on a spherical target
