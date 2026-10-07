@@ -12,7 +12,7 @@ Drop-impact views at **t* = 0.50**.
 
 ## Current repository status
 
-The case currently included on `main` is the **flat-target, zero-curvature reference configuration**, labelled `Vel5.00_0_degree`. Both the simulation and visualization programs construct a plane normal to the symmetry axis. A finite-curvature spherical-target case is not included in this checkout. The `0_degree` label does not denote the liquid contact angle, which is set to **90°**.
+The case currently included on `main` is the **flat-target, zero-curvature reference configuration**, labelled `Vel5.00_0_degree`. Both the simulation and visualization programs construct a plane normal to the symmetry axis.
 
 ## Repository contents
 
