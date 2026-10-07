@@ -6,9 +6,9 @@ Basilisk C source files for numerical work on drop impact and target curvature. 
 
 Drop-impact views at **t* = 0.50**.
 
-| Drop shape | Colour-field view |
+| Drop shape | Pressure inside the droplet |
 | --- | --- |
-| ![Drop shape at t* = 0.50](images/drop-impact-shape-time0_50.png) | ![Colour-field view at t* = 0.50](images/drop-impact-colour-field-time0_50.png) |
+| ![Drop shape at t* = 0.50](images/drop-impact-shape-time0_50.png) | ![Pressure inside the droplet at t* = 0.50](images/drop-impact-colour-field-time0_50.png) |
 
 ## Current repository status
 
