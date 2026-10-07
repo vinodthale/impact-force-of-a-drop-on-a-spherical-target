@@ -2,11 +2,17 @@
 
 Basilisk C source files for numerical work on drop impact and target curvature. The solver uses a two-dimensional axisymmetric, incompressible two-phase formulation with volume-of-fluid (VOF) interface tracking, an embedded solid boundary, surface tension, gravity, and adaptive mesh refinement.
 
+## Visualization snapshots
+
+Drop-impact views at **t* = 0.50**.
+
+| Drop shape | Colour-field view |
+| --- | --- |
+| ![Drop shape at t* = 0.50](images/drop-impact-shape-time0_50.png) | ![Colour-field view at t* = 0.50](images/drop-impact-colour-field-time0_50.png) |
+
 ## Current repository status
 
 The case currently included on `main` is the **flat-target, zero-curvature reference configuration**, labelled `Vel5.00_0_degree`. Both the simulation and visualization programs construct a plane normal to the symmetry axis. A finite-curvature spherical-target case is not included in this checkout. The `0_degree` label does not denote the liquid contact angle, which is set to **90°**.
-
-The checkout also requires additional contact-line headers before it can be built. `stage_b_contact_grid.h` and `stage_b_huang_embed_curvature.h` reference files under `huang_axi_locked_include/` and `huang_original/`; neither directory is currently included.
 
 ## Repository contents
 
