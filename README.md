@@ -82,9 +82,3 @@ With the default case identifier, the source writes:
 - `endofrun_Vel5.00_0_degree-CPU*.txt`: per-rank completion records
 
 The visualization program writes PNG frames under `bviewfiles_Vel5.00_0_degree/` and a movie named `Bview_Vel5.00_0_degree.mp4`.
-
-## Interpretation and reproducibility
-
-- An impact-force filename is defined in `constants.h`, but the included driver does not write a force history, and no force-extraction program is included.
-- The energy diagnostics retain legacy normalization and dissipation expressions; gravitational potential-energy accumulation is inactive. They should not be treated as a validated closed energy budget.
-- The repository does not include simulation datasets, grid-convergence results, or validation reports. Record the code revision, dependency versions, case inputs, mesh settings, and execution environment when reporting results.
